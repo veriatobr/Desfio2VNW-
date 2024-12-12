@@ -1,6 +1,3 @@
-GLEICIANE MEU AMOR
-
-
 
 # Projeto de Interface Responsiva - Logística Portuária
 
