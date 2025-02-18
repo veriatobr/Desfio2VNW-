@@ -6,53 +6,124 @@
     box-sizing: border-box;
 }
 
-header{
-    .headercontent {
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+    font-family: "Oswald";
+
+    h1{
+        font-weight: 700;
+        font-size: 2.5rem;
+    }
+
+    nav{
+        width: 50%;
+        height: 15vh;
+    }
+
+    ul{
         display: flex;
-        justify-content: space-between;
+        height: 15vh;
+        justify-content: space-evenly;
+        list-style: none;
         align-items: center;
-        padding: 10px 20px;
-        font-family: Arial, sans-serif;
-        background-color: white;
-        height: 130px;
-        font-family: 'Oswald';
+
+        #contato{
+            border:solid #000000;
+        }
     }
-    
-    .portologocontent{
-        width: 242px;
-        height: 68px;
-        top: 46px;
-        left: 127px;
-        font-size: 20px;
-        font-weight: bold;
-    }
-    
-    .menucontent a {
-        
-        margin: 0 10px;
+
+    a {
         text-decoration: none;
-        color: gray;
-        font-size: 14px;
-        transition: color 0.3s;
+        color: #5b5b5b;
     }
-    
-    .menucontent a:hover {
-        color: black;
+
+    a:hover {
+        color: #2320ec;
+        font-size: 1.5rem;
+        font-weight: 900;
     }
-    
-    .contatocontent .contatobotao{
-        
-        padding: 5px 15px;
-        border: 2px solid black;
-        text-decoration: none;
-        color: black;
-        font-size: 14px;
-        transition: background-color 0.3s, color 0.3s;
-    
+}
+
+.background-imagecontainer{
+    height: 100vh;
+    background-image: url("/img/6ba567ef9e94f172c378e6b2c5e3d205.jpg");
+    background-size: 50% 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.h2porto{
+    font-size: 111vh;
+    color: #FFFFFF;
+    font-size: 7rem;
+    font-weight: 100vh;
+    font-family: "Oswald";
+    margin: 5%;
+}
+
+
+.h3solucoes{
+    color: #FFFFFF;
+    font-size: 1.7rem;
+    margin: 5%;
+    padding-top: 1%;
+}
+
+.buttonsecao1{
+    background-color: #0016DF;
+    color: #FFFFFF;
+    font-size: 1.7rem;
+    border: solid black;
+    text-align: center;
+    margin: 5%;
+    border-width: 11;
+}
+
+.secao2{
+    display:flex;
+    margin: 5%;
+    font-family: "Oswald";
+
+    .h2gestao{
+        color: #0016DF;
+        font-family: "Oswald";
     }
-    .contatocontent .contatobotao:hover{
-        background-color: black;
-        color: white;
+
+    .h3simplificando{
+        font-family: "Oswald";
+    }
+
+    .h4entreemcontato{
+        color: #0016DF;
+    }
+
+    .imgsecao2{
+        width: 679px;
+        height: 783px;
+    }
+}
+
+.secao3{
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    width: 28vw;
+
+    .img1secao3{
+        width: 40vw;
+    }
+
+    .img2secao3{
+        width: 40vw;
+    }
+
+    .img3secao3{
+        width: 40vw;
     }
 }
 
